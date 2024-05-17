@@ -1,0 +1,82 @@
+header{
+    padding: 250px;
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    background-image:url(Imageness/fondo12.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -10px;
+}
+nav{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-image:url(Imágenes/fondo26.jpg);
+}
+nav a{
+    text-align: center;
+    font-size:15px;
+    font-family:monospace;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+}
+body{
+    background-image: url(Imágenes/fondo4.jpg);
+    background-size:cover;
+    opacity: 0; 
+    transform: translateY(-50px); 
+    margin-bottom: 20px; 
+    animation: Deslizar 2s ease forwards; 
+}
+table{
+ border-radius:8px;
+   position:relative;
+   display:flex;
+   justify-content: center;
+}
+  
+.Content{
+    font-size: 30px;
+    text-align: center;
+   padding: 10px;
+    font-family:monospace;
+   color: aliceblue;
+}
+
+.Content2{
+    justify-content: top;
+    text-align: right;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    flex: 70px;
+    background-image: none;
+  padding: 20px;
+}
+.image{
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.75); 
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    padding: 30px;
+    background-color: rgb(2, 62, 141);
+}
+@keyframes Deslizar{
+    from {
+      opacity: 0;
+      transform: translateY(-50px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }

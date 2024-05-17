@@ -1,0 +1,75 @@
+.head{
+    font-family: cursive;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: cornsilk;
+   background-image: url(Imágenes/fondo3.jpg);
+  background-size: cover,auto;
+    background-repeat: no-repeat;
+    opacity:0;
+ transform: translateY(-50px);
+ animation: animacion 2s ease forwards;
+}
+.buttons{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display:inline-block;
+ background-color: #111b27;
+color:white;
+ padding:15px 60px;
+ border-radius: 5px;
+ border: 1px solid;
+border-color: #cbe4ff;
+ box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.75);
+ font-size:20px;
+ cursor: pointer;
+ 
+}
+.buttons:hover{
+    transform: translateY(7px);
+    transition: all 500ms ease-out;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+.pictures{
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.75); 
+}
+    
+.pictures:hover{
+    transform: translateY(-15px);
+    transition: all 500ms ease-out;
+
+}
+nav{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-image:none;
+}
+nav a{
+    text-align: center;
+    font-size: 15px;
+    font-family:monospace;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+}
+@keyframes animacion{
+from{
+    opacity:0;
+    transform:translateY(-50px);
+}
+to{
+    opacity: 1;
+    transform:translateY(0px);
+}
+}
