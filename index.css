@@ -29,7 +29,7 @@ body{
     background-size:cover;
     opacity: 0; 
     transform: translateY(-50px); 
-    margin-bottom: 20px; 
+            margin-bottom: 20px; 
     animation: Deslizar 2s ease forwards; 
 }
 table{
